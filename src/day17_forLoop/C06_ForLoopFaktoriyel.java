@@ -21,6 +21,7 @@ public class C06_ForLoopFaktoriyel {
 		}
 		
 		System.out.print("1=" + toplam);
+		scan.close();
 	}
 
 }
