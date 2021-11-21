@@ -30,6 +30,8 @@ public class C06_Arrays {
 		
 		//buyukten kucuge yazdirmak icin ya for loop ile elemanlari yazdirabiliriz
 		
+		
+		
 		for (int i = arr.length-1; i >=0 ; i--) {
 			
 			System.out.print(arr[i]+" ");
