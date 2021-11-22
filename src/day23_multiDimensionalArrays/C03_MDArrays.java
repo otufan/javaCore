@@ -1,6 +1,6 @@
 package day23_multiDimensionalArrays;
 
-import java.util.Arrays;
+
 
 public class C03_MDArrays {
 
