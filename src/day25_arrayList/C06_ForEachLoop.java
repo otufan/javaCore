@@ -8,7 +8,7 @@ public class C06_ForEachLoop {
 	public static void main(String[] args) {
 		// bazen index ile hic ugrasmadan bir array veya listedeki tum elemanlari gozden gecirmek isteriz
 		
-		int arr[]= {1,2,3,5,7,3,5,1};
+		int arr[]= {1,2,3,2,7,3,5,1};
 		
 		//bu array i esnek bir list yapmak istiyorum
 		List<Integer> yeniList=new ArrayList<>();
