@@ -8,27 +8,28 @@ public class C01_ForEachLoop {
 
 		String arr1[]= {"A", "C", "B"};
 		String arr2[]= {"A","R","O"};
+
+		int bayrak=0;
 		
-		int flag=0;
-		
-		for (String each1:arr1) {
+		for (String each1 : arr1) {
 			
-			for(String each2:arr2) {
+			for (String each2 : arr2) {
 				
-				if (each1.equals(each2)) {
-					System.out.println(each1+" ");
-					flag++;
-					
-				} 
+				if(each1.equals(each2)) { System.out.println(each1 + " ");
+				bayrak++;
 				
 			}
 			
 		}
 		
-		if (flag==0) { System.out.println("Ortak eleman yoktur...");
-			
-		}
 		
+		
+	}
+		if (bayrak==0) {
+			
+		
+		System.out.println("Ortak eleman yok!");
+		}
 	}
 
 }
