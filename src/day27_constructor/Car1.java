@@ -1,4 +1,4 @@
-package day27_constructor_constructorCall;
+package day27_constructor;
 
 public class Car1 {
     int yil=2000;
@@ -23,6 +23,14 @@ public class Car1 {
     
 	public Car1(int i) { //bu satirdaki int km ile class levelde ki int km farkli scope lardadir. 
 		km=i;
+	}
+
+
+
+	public Car1(int i, int j) {
+		yil=i;
+		km=j;
+		
 	}
 
 	public void hiz(int hiz) {
