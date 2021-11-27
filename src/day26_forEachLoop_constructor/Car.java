@@ -12,7 +12,7 @@ public class Car {
 	//2-Constructor larin return type olmaz
 	//method dan ikici farki budur, method larin mutlaka return type olmalidir.)
 	
-	 Car() {
+	 public Car() {
 		
 	}
 	 
@@ -20,7 +20,7 @@ public class Car {
 	 //Java nin her class da olusturdugu constructor budur.
 	 
 	
-	int yil=2000;
+	public int yil=2000;
 	String renk;
 	String model;
 	int km;
