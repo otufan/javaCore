@@ -29,7 +29,12 @@ public class C01_Immutable {
 		
 		isimler.set(0, "Veli");
 		
-		System.out.println(isimler);//[Ali]
+		System.out.println(isimler);//[Veli]
+		
+		isimler.remove(0);
+		
+		System.out.println(isimler);//[]
+		
 		
 		
 	}
