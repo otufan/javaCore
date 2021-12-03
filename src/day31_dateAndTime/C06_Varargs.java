@@ -12,6 +12,7 @@ public class C06_Varargs {
 		int e=50;
 		int f=60;
 		
+				
 		topla(a,b);//iki sayinin toplami : 30
 		topla(a,b,c);//uc sayinin toplami : 60
 		topla(a,b,c,d);//varargs calisir
