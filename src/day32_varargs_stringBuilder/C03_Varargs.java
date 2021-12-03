@@ -4,13 +4,14 @@ public class C03_Varargs {
 
 	public static void main(String[] args) {
 		
-		kafanaGoreTopla(5, 10, 13, 0);
+		kafanaGoreIslem(5, 10, 13, 0);
 		
-		
+		//varargs da hic eleman olmasa da Java itiraz etmez. Once int olarak tanimlanan sayilari eslestirir. 
+		//Kalan tum sayilari varargs a doldurur
 
 	}
 
-	public static void kafanaGoreTopla(int sayi1, int sayi2, int... sayi) {
+	public static void kafanaGoreIslem(int sayi1, int sayi2, int sayi3, int sayi4, int... sayi) {
 		int toplam=0;
 		
 		for (int each : sayi) {
