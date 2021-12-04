@@ -15,7 +15,7 @@ public class C05_StringBuilder {
 		
 		System.out.println(sb);
 		
-		String buyukHarfsb=sb.toString().toUpperCase();
+		String buyukHarfsb=sb.toString().toUpperCase(); //StringBuilder olusturup manipule ederek tekrar StringBuilder atama yapamayiz.
 		
 		System.out.println(buyukHarfsb);
 		
