@@ -51,6 +51,7 @@ public class C01_Append_Lenght_Capacity {
 		
 		System.out.println(sb);//Java candirasi
 		
+		
 	}
 
 }
