@@ -6,6 +6,10 @@ public class Isci extends Muhasebe {
 	protected String meslegi;
 	protected String sendika;
 	
+	public Isci(){
+		System.out.println("Isci parametresiz constructor calisti");
+		
+	}
 	
 	public static void main(String[] args) {
 		
@@ -17,7 +21,8 @@ public class Isci extends Muhasebe {
 		isci1.isim="Emine";
 		isci1.maas=isci1.maasHesapla();
 		
-		System.out.println(isci1.isim+" ' in maasi : " + isci1.maas);
+		System.out.println(isci1.isim+" ' in maasi : " + isci1.maas);//Emine ' in maasi : 4000
+		
 		
 		
 
