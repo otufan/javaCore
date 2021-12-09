@@ -1,6 +1,6 @@
 package day37_inheritence;
 
-public class Toyota {
+public class Toyota extends Araba{
 
 	protected boolean pahaliMi;
 	protected String uretimYeri="Japonya";
@@ -11,7 +11,7 @@ public class Toyota {
 		
 		
 	}
-	
+
 	public void method2() {
 		System.out.println("Toyota class indan method2 calisti");
 		

@@ -2,7 +2,7 @@ package day37_inheritence;
 
 public class Araba {
 
-		protected int tekerSayisi=4;
+		protected int tekerSayisi;
 		protected boolean calisiyorMu=true;
 		
 		public void method1() {
