@@ -1,9 +1,10 @@
 package day38_overriding;
 
-public class Kuslar {
+public class Kuslar extends Animals{
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		
 
 	}
 	public void hareket() {

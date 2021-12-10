@@ -11,6 +11,10 @@ public class Baliklar extends Animals{
 	}
 	
 	@Override
+	//Child class taki bir method parent class tan bir methodu override ediyorsa yani gecersiz kiliyorsa, bunu istersek
+	//@override notasyonu ile declare edebiliriz
+	//Deklare etmesekte kodumuz calisir
+	//ancak deklare ettigimizde Java overriden method surekli kontrol eder ve o method overriding e uymayan bir degisiklik olurs acte verir
 	public void hareket() {
 		System.out.println("Baliklar yuzerek hareket eder");
 	}
