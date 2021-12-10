@@ -10,7 +10,7 @@ public class KumesHayvanlari extends Kuslar{
 		kms1.hareket();//Kumes hayvanlari yuruyerek hareket eder<--- kendinde yok o yuzden bir ust parents aldi
 		kms1.solunum();//Kuslar akcigerleriyle nefes alir		<--- kendinde var oradan aldi
 		
-		
+		System.out.println("");
 		Kuslar kms2=new KumesHayvanlari();
 		
 		kms2.beslenme();//Animals 				   ---> Tum hayvanlar beslenir
@@ -19,12 +19,20 @@ public class KumesHayvanlari extends Kuslar{
 		//kendi spesifik ozellikleri disinda kuslara tabi oluyor
 		//ama spesifik bir durum varsa farkini ortaya koyuyor
 		
+		System.out.println("");
 		
 		Kuslar kms3=new Kuslar();
 		kms3.beslenme();//Tum hayvanlar beslenir
 		kms3.hareket();//Kuslar ucarak hareket eder
 		kms3.solunum();//Kuslar akcigerleriyle nefes alir
-
+		
+		System.out.println("");
+		
+		Animals kms4=new KumesHayvanlari();
+		kms4.beslenme();//	animals				Tum hayvanlar beslenir
+		kms4.hareket();//	animals				Kumes hayvanlari yuruyerek hareket eder
+		kms4.solunum();//	animals				Kuslar akcigerleriyle nefes alir
+		
 		
 
 	}
