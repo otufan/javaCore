@@ -11,6 +11,7 @@ public class KumesHayvanlari extends Kuslar{
 		kms1.solunum();//Kuslar akcigerleriyle nefes alir		<--- kendinde var oradan aldi
 		
 		System.out.println("");
+		
 		Kuslar kms2=new KumesHayvanlari();
 		
 		kms2.beslenme();//Animals 				   ---> Tum hayvanlar beslenir
@@ -19,9 +20,10 @@ public class KumesHayvanlari extends Kuslar{
 		//kendi spesifik ozellikleri disinda kuslara tabi oluyor
 		//ama spesifik bir durum varsa farkini ortaya koyuyor
 		
-		System.out.println("");
+		System.out.println("");			
 		
 		Kuslar kms3=new Kuslar();
+		
 		kms3.beslenme();//Tum hayvanlar beslenir
 		kms3.hareket();//Kuslar ucarak hareket eder
 		kms3.solunum();//Kuslar akcigerleriyle nefes alir
