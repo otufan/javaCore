@@ -1,5 +1,6 @@
 package day40;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class C02_Exception {
@@ -15,14 +16,24 @@ public class C02_Exception {
 		
 		Scanner scan=new Scanner(System.in);
 		
-		while(count<10000) {
+		try {
+			
+			while(count<10000) {
 			System.out.println("Lutfen toplamak icin bir sayi yaziniz\nBitirmek icin q ya basiniz!");
 			sayi=scan.nextInt();
 			toplam+=sayi;
 			count++;
 		}
+			
+		} catch (InputMismatchException e) {
+		System.out.println("girdiniz " + count + " sayinin toplami : " + toplam);
 		
-		System.out.println("Girilen sayilarin toplami : " + toplam);
+		}
+		
+		
+		
+		
+		
 		
 		
 		
