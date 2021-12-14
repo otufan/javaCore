@@ -30,7 +30,7 @@ public class C01_MatematikselIslemler {
 		double sayi3=2;
 		
 		System.out.println(sayi1/sayi2);//2
-
+		
 		System.out.println(sayi1/sayi3);//2,5
 	}
 
