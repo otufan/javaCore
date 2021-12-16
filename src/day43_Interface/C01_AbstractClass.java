@@ -4,8 +4,7 @@ public abstract class C01_AbstractClass {
 	//abstraact class lar class olduklari icin constructor a sahiptirler
 	//ancak abstract class lardan obje olusturulamaz
 	
-	
-	
+			
 	C01_AbstractClass(){
 		
 	}

@@ -11,6 +11,7 @@ public class AbsUstabasi extends AbsIsci{
 		usta1.mesai();
 		usta1.statu();
 		
+		
 
 	}
 
