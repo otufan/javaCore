@@ -2,7 +2,7 @@ package day43_Interface;
 
 public interface C02_Interface {
 
-	void motor(); //normal class larda access modifier yazilmazsa java default access mo. kabul eder
+	abstract void motor(); //normal class larda access modifier yazilmazsa java default access mo. kabul eder
 				//interface ise access mod olarak public kabul eder
 	
 	
