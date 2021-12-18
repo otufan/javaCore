@@ -27,6 +27,9 @@ public class C05_ListIterator {
 		}
 		
 		System.out.println(liste);
+		System.out.println(li1.previous());
+		li1.add("Yeni eleman Hamdi");
+		System.out.println(liste);
 		
 		
 	}
